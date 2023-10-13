@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(0, 0, 0) !important;
+    padding: 2em !important;
+}
+
+.card-container{
+    
+}
+.card {
+    background-color: rgba(255, 255, 255, 0.3) !important;
+    backdrop-filter: blur(10px) !important;
+    height: fit-content !important;
+    padding: 1em !important;
+    width: 35em !important;
+    border-radius: 2em !important;
+    margin: 10% !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container{
+    background-image: url("../img/bg-3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(167, 128, 147, 0.8) !important;
+    display: grid !important;
+    grid-template-columns: 1fr 2fr !important;
+    grid-gap:2em;
+    /* background-color: #a78093 !important; */
+    padding: 1em !important;
+    border-radius: 25px;
+    width: 70em !important;
+    
+}
+
+.login-image{
+   
+}
+
+.loginss{
+    height: 40em;
+}
+
+.logo{
+    height: 50px;
+}
+
+.input-group {
+    margin-bottom: 1rem;
+}
+
+.input-group .input-group-text {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.card .form-control {
+    height: 3rem;
+    border-radius: 10px;
+}
+
+.btn-login{
+    background-color: rgb(33, 83, 157);
+    color: white;
+    padding: 1em;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.toggle-password {
+    cursor: pointer;
+    border-left: none;
+    background-color: transparent;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+

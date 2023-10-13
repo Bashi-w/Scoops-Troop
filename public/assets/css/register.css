@@ -1,0 +1,43 @@
+body {
+    background-image: url("../img/bg-3.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 0.5em !important;
+}
+
+.container{
+    
+}
+
+.card{
+    background-color: rgba(255, 255, 255, 0.3) !important;
+    backdrop-filter: blur(10px) !important;
+    height: fit-content !important;
+    padding: 1em !important;
+    border-radius: 2em !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 0 10px rgba(0, 0, 0, 0.1);
+    font-weight: bolder;
+}
+
+.logo{
+    height: 50px;
+}
+
+
+.input-group {
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.input-group .input-group-text {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.btn-regster{
+    background-color: rgb(33, 83, 157);
+    color: white;
+    padding: 1em;
+    width: 100%;
+    border-radius: 30px;
+}
